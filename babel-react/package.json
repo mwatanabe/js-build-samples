@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "babel src.jsx -o bundle.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.7.5",
+    "babel-preset-react": "^6.5.0"
+  }
+}
