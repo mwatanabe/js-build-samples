@@ -1,5 +1,5 @@
 React.createElement(
-  "h1",
+  "div",
   null,
   "Hello, world!"
 );
