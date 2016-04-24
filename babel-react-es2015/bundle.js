@@ -8,8 +8,8 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Hello = function (_React) {
-    _inherits(Hello, _React);
+var Hello = function (_React$Component) {
+    _inherits(Hello, _React$Component);
 
     function Hello() {
         _classCallCheck(this, Hello);
@@ -29,4 +29,6 @@ var Hello = function (_React) {
     }]);
 
     return Hello;
-}(React);
+}(React.Component);
+
+ReactDOM.render(React.createElement(Hello, null), document.body);
