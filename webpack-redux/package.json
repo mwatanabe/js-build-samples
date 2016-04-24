@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "redux": "^3.5.1",
+    "webpack": "^1.13.0"
+  }
+}
